@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" width="960" height="280" role="img" aria-labelledby="title desc">
+  <title id="title">Heitor Fernandes</title>
+  <desc id="desc">Banner azul escuro com o monograma HF em verde menta.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#101c2e"/>
+      <stop offset="1" stop-color="#132f3b"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0v28" fill="none" stroke="#9ce5c9" stroke-opacity=".12"/>
+    </pattern>
+    <clipPath id="frame"><rect width="960" height="280" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="960" height="280" fill="url(#bg)"/>
+    <path d="M730 0h230v280H595z" fill="#143c43"/>
+    <path d="M730 0h230v280H595z" fill="url(#grid)"/>
+    <path d="M730 0 595 280" stroke="#8de5bf" stroke-opacity=".40"/>
+    <path d="M24 24h32m-32 0v32M936 256h-32m32 0v-32" fill="none" stroke="#a7f3d0" stroke-opacity=".6" stroke-width="2"/>
+    <rect x="50" y="55" width="38" height="4" rx="2" fill="#a7f3d0"/>
+    <text x="50" y="93" fill="#a7f3d0" font-family="Consolas,monospace" font-size="20" font-weight="700" letter-spacing="2.4">PORTFÓLIO DE DESENVOLVIMENTO</text>
+    <text x="47" y="159" fill="#f5fbff" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="700" letter-spacing="-1.8">Heitor</text>
+    <text x="47" y="223" fill="#f5fbff" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="700" letter-spacing="-1.8">Fernandes</text>
+    <path d="M754 78h-23v124h23m106-124h23v124h-23" fill="none" stroke="#8de5bf" stroke-width="2" stroke-linecap="round"/>
+    <path d="M763 176v-72m54 72v-72h36m-90 36h90" fill="none" stroke="#a7f3d0" stroke-width="10" stroke-linecap="square"/>
+    <circle cx="807" cy="78" r="3" fill="#a7f3d0"/>
+    <circle cx="807" cy="202" r="3" fill="#a7f3d0"/>
+  </g>
+</svg>
